@@ -17,7 +17,7 @@ resource "google_sql_database" "database" {
 
   //Criando usuario
 resource "google_sql_user" "users" {
-  name     = "informar um nome de usuario"
-  password = "informar uma senha para o usuario"
+  name     = "informar um nome de usuário"
+  password = "informar uma senha para o usuário"
   instance = google_sql_database_instance.instance.name
 }
