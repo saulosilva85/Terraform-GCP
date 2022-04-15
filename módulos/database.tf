@@ -1,5 +1,5 @@
 //Criando id do banco de dados
-/*resource "google_sql_database_instance" "instance" {
+resource "google_sql_database_instance" "instance" {
   name             = "db-teste-01"
   database_version = "mysql_5_7"  
   region           = "us-east1"
@@ -7,8 +7,6 @@
   settings {
     tier = "db-f1-micro"
   }
-
-  deletion_protection = "false"
 }
 
   // Criando banco de dados
@@ -17,9 +15,9 @@ resource "google_sql_database" "database" {
   instance = google_sql_database_instance.instance.name
 }
 
-  //Criando usuario
+  //Criando usuário
 resource "google_sql_user" "users" {
-  name     = "admin"
-  password = "1234@1234"
+  name     = "informar um nome de usuário"
+  password = "informar uma senha para o usuário"
   instance = google_sql_database_instance.instance.name
-}*/
+}
