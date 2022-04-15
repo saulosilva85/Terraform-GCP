@@ -7,8 +7,6 @@
   settings {
     tier = "db-f1-micro"
   }
-
-  deletion_protection = "false"
 }
 
   // Criando banco de dados
