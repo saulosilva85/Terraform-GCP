@@ -7,7 +7,7 @@ O Terraform oferece suporte a vários provedores de infraestrutura em nuvem, com
 
 Comandos básicos:
 
-- terraform init: é usado para inicializar um diretório de trabalho contendo os arquivos de configuração do Terraform. O comando terraform init é o primeiro comando que deve ser executado depois de gravar uma nova configuração do Terraform ou de clonar uma existente do controle de versão.
+- terraform init: é usado para inicializar um diretório de trabalho contendo os arquivos de configuração do Terraform.
 - terraform plan: é usado para mostrar um plano de execução.
 - terraform apply: é usado para criar e alterar as Instâncias/Objetos no Provider.
 - terraform destroy: é usado para destruir todos os recursos que foram criados durante o processo de criação.
