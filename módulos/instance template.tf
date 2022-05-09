@@ -26,5 +26,5 @@ resource "google_compute_instance_template" "instance_template" {
   }
 
   // Instalação Apache, webserver
-  metadata_startup_script = "apt update && apt -y install apache2 && apt -y install stress"
+  metadata_startup_script = "apt update && apt -y install apache2"
 }
